@@ -51,14 +51,16 @@ class FacebookProfiler:
 
 
 
-excel = 'C:/users/basir/desktop'
-photos = 'C:/Users/basir/Desktop/python/blackrock/photos'
+excel = 'C:/users/muizyusuff/desktop'
+photos = 'C:/Users/muizyusuff/desktop/dev/blackrock/BlackrockFBP/blackrock/photos'
 testFb = FacebookProfiler(excel, photos)
 
-# print(testFb.get_from_excel())
+# Make text file containing the contents
 
-with open('final-object.txt', 'w') as f:
+with open('compiled-data.txt', 'w') as f:
 	f.write(str(testFb.get_from_excel()))
+
+# exec
 
 print(testFb.get_from_excel())
 
