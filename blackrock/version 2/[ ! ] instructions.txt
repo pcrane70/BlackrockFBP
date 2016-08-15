@@ -1,0 +1,40 @@
+Prerequisites:
+	
+	1.	Create a directory. Then open it.
+	2.	Copy the directory's address.
+		a. Should begin with a character with a colon, for example:
+			- 'C:\'
+			- 'H:\'
+	3.	Put the 2 excel files within the directory (and only 2).
+		a.	The reason for this is, based on the new hires for July/August 2016,
+			2 excel files were provided, one with general information (first name, last name
+			university, etc.) while the other contained each person's response to questions 
+			(favorite film, interests, and 3 people they would invite to a dinner).
+
+			- No other files should be within this directory.
+	4.	Within the directory you created, create a directory with the name 'Photos', and place
+		all the photos for the new hires within this folder/directory.
+			a.	For example, if the directory created in step 3 was named 'New Hires', the Photos
+				directory should be located in '..\New Hires\Photos'
+
+Steps:
+
+	1. Open command prompt
+	2. Install modules listed in requirements.txt under 'Required Modules' with pip ( ask the tech gurus ).
+		a.	Some of the modules must be manually installed ( those modules and their download links are located in requirements.txt )
+
+Reminders:
+
+	1.	In each excel file, the excel sheets should be left at the default name (e.g Sheet name -> Sheet1)
+	2.	Require employees sending photos to name the pictures in the format LastName, FirstName or FirstName LastName
+		a. Example: 
+			- Last, First.png
+			- First Last.jpg
+
+			* No extra characters should be used.
+
+Terminology:
+
+	- directory = folder
+
+- This process, all together, should take at most 10 minutes, far less time consuming.
